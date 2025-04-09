@@ -15,6 +15,16 @@ const AdminLayout = () => {
                             مدیریت کتگوری
                         </Link>
                     </div>
+                    <div className={"flex items-center justify-center"}>
+                        <Link to={"/admin/add-brand"}>
+                            مدیریت برند
+                        </Link>
+                    </div>
+                    <div className={"flex items-center justify-center"}>
+                        <Link to={"/admin/subcategories"}>
+                            مدیریت زیر دسته بندی
+                        </Link>
+                    </div>
                 </nav>
             </aside>
             <main className={"bg-base-100"}>
